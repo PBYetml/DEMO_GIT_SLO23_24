@@ -76,16 +76,6 @@ int AssembyDatas(int8_t voltageData, int8_t currentData, int8_t powerData, int8_
 	middleFrame = resistorData & 0x000000FF; 
 	frame = frame | middleFrame;						// update datas with voltage, current, power, resistor 
 	
-	//-- variante 2) LSB on left
-	/*
-	frame = (resistorData << 24) & 0xFF000000;			// unwrapping and masking -> MSB part 	
-	middleFrame = (powerData << 16) & 0x00FF0000; 
-	frame = frame | middleFrame;						// update datas with voltage and cuurent   
-	middleFrame = (currentData << 8) & 0x0000FF00; 
-	frame = frame | middleFrame;						// update datas with voltage, current and power 
-	middleFrame = voltageData & 0x000000FF; 
-	frame = frame | middleFrame;						// update datas with voltage, current, power, resistor 
-	*/
 	
 	return frame; 
 }
@@ -104,10 +94,27 @@ int AssembyDatas(int8_t voltageData, int8_t currentData, int8_t powerData, int8_
 ----------------------------------------------------------------------------------- */
 void DatasCutting(int frame)
 {
+	// Déclare une variable de type int8_t et extrait les 8 premiers bits de "frame"
+	int8_t resistance = frame & 0x000000FF;
+
+	// Déclare une variable de type int8_t et extrait les 8 bits de "frame" en décalant les bits de 8 positions vers la droite
+	int8_t puissance = frame >> 8;
+	// Masque les bits supérieurs pour ne garder que les 8 premiers bits
+	puissance = puissance & 0x000000FF;
+
+	// Déclare une variable de type int8_t et extrait les 8 bits de "frame" en décalant les bits de 16 positions vers la droite
+	int8_t courant = frame >> 16;
+	// Masque les bits supérieurs pour ne garder que les 8 premiers bits
+	courant = courant & 0x000000FF;
+
+	// Déclare une variable de type int8_t et extrait les 8 bits de "frame" en décalant les bits de 24 positions vers la droite
+	int8_t tension = frame >> 24;
+	// Masque les bits supérieurs pour ne garder que les 8 premiers bits
+	tension = tension & 0x000000FF;
 
 	//-- display the different frame value --//
-	printf("-- valeur voltage :  \n", );
-	printf("-- valeur current : \n", );
-	printf("-- valeur power :  \n", );
-	printf("-- valeur resistor :  \n", );
+	printf("-- valeur voltage :  %d \n", tension);			//affiche la valeur de tension
+	printf("-- valeur current : %d \n", courant);			//affiche la valeur de courant
+	printf("-- valeur power :  %d \n", puissance);			//affiche la valeur de puissance
+	printf("-- valeur resistor :  %d \n", resistance);		//affiche la valeur de resistance
 }

@@ -1,0 +1,8 @@
+﻿L'opération de génération a démarré...
+1>------ Début de la génération : Projet : OneCode, Configuration : Debug x64 ------
+1>OneCode.c
+1>C:\LCX_test\PROG\OneCode\OneCode\OneCode.c(59,23): warning C4474: 'printf' : trop d'arguments passés pour la chaîne de format
+1>C:\LCX_test\PROG\OneCode\OneCode\OneCode.c(59,23): message : les espaces réservés et leurs paramètres attendent des arguments 0 variadiques, mais des arguments 1 ont été fournis
+1>OneCode.vcxproj -> C:\LCX_test\PROG\OneCode\x64\Debug\OneCode.exe
+1>Génération du projet "OneCode.vcxproj" terminée.
+========== Build : 1 réussite(s), 0 échec(s), 0 à jour, 0 ignorée(s) ==========
