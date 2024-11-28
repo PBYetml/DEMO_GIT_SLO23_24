@@ -1,0 +1,4 @@
+﻿  Ex3_V02.c
+C:\RB\Programation\PROG_SLO1_24_25\Exercice\Exo3\Exercices 3 Renato\Exercices 3 Renato\Ex3_V02.c(40,1): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+C:\RB\Programation\PROG_SLO1_24_25\Exercice\Exo3\Exercices 3 Renato\Exercices 3 Renato\Ex3_V02.c(36,9): warning C4101: 'Surface_ou_Rayon' : variable locale non référencée
+  Exercices 3 Renato.vcxproj -> C:\RB\Programation\PROG_SLO1_24_25\Exercice\Exo3\Exercices 3 Renato\x64\Debug\Exercices 3 Renato.exe

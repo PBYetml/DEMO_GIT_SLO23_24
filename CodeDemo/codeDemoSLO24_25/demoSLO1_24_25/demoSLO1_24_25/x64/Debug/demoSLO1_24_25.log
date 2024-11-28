@@ -1,0 +1,31 @@
+﻿  demoSLO.c
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(69,31): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(70,25): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(73,35): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(76,48): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(79,26): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(80,33): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(80,26): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(56,22): warning C4101: 'choixUser' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(58,18): warning C4101: 'choixUser2' : variable locale non référencée
+  Source2.c
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(71,12): warning C4477: 'printf' : la chaîne de format '%d' nécessite un argument de type 'int', mais l'argument variadique 1 est de type 'size_t'
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(71,12): message : utilisez '%zd' dans la chaîne de format
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(45,19): warning C4244: 'initialisation' : conversion de 'double' en 'unsigned int', perte possible de données
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(59,13): warning C4101: 'a3' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(38,10): warning C4101: 'a' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(62,14): warning C4101: 'd3' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(53,12): warning C4101: 'a2' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(66,12): warning C4101: 'r2' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(44,19): warning C4101: 'a1' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(39,11): warning C4101: 'b' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(61,14): warning C4101: 'c3' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(54,13): warning C4101: 'b3' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(65,11): warning C4101: 'r1' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(60,14): warning C4101: 'b4' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(40,9): warning C4101: 'c' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(55,13): warning C4101: 'c2' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(41,15): warning C4101: 'd' : variable locale non référencée
+C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\Source2.c(56,13): warning C4101: 'd2' : variable locale non référencée
+  Génération de code en cours...
+  demoSLO1_24_25.vcxproj -> C:\RB\Programation\PROG_SLO1_24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\x64\Debug\demoSLO1_24_25.exe

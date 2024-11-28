@@ -1,0 +1,8 @@
+﻿  Calcule surface.c
+  demo2.c
+C:\RB\Programation\Demo1_24\Demo1_24\demo2.c(67,50): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\RB\Programation\Demo1_24\Demo1_24\demo2.c(69,54): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\RB\Programation\Demo1_24\Demo1_24\demo2.c(71,69): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\RB\Programation\Demo1_24\Demo1_24\demo2.c(73,46): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+  Génération de code en cours...
+  Demo1_24.vcxproj -> C:\RB\Programation\Demo1_24\x64\Debug\Demo1_24.exe
